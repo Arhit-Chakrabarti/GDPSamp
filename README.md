@@ -1,2 +1,1 @@
-# GDPSamp
 Graphical Dirichlet Process
