@@ -1,0 +1,22 @@
+Package: GDPSamp
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2023-06-02
+Author: Arhit Chakrabarti
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Imports: 
+    extraDistr,
+    Rcpp (>= 1.0.10),
+    RcppDist,
+    SALTSampler,
+    mvtnorm,
+    fossil
+LinkingTo: Rcpp, RcppArmadillo, RcppDist, extraDistr, SALTSampler
+Depends: 
+    extraDistr,
+    grid,
+    gridExtra,
+    SALTSampler
