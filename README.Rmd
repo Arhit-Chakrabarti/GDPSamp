@@ -1,0 +1,22 @@
+---
+title: "Graphical Dirichlet process"
+author: "Arhit Chakrabarti"
+output: 
+    github_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installation
+
+You can install GDPSamp R package from GitHub with:
+
+```{r, echo = TRUE, eval = FALSE}
+# install.packages("devtools")
+# install the package without building vignettes
+devtools::install_github("Arhit-Chakrabarti/GDPSamp")
+```
+**Note**: The library *devtools* needs to be installed before installing the R package from GitHub. 
+
