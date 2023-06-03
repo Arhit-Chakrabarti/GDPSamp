@@ -3,7 +3,8 @@ Type: Package
 Title: Sampling for Graphical Dirichlet Process
 Version: 1.0
 Date: 2023-06-02
-Author: Arhit Chakrabarti
+Authors@R: 
+    person("Arhit", "Chakrabarti", , "arhit.chakrabarti@stat.tamu.edu", role = c("aut", "cre"))
 Description: This package provides function for posterior sampling of Graphical Dirichlet Process for the eight groups
 License: GPL (>= 3)
 Imports: 
