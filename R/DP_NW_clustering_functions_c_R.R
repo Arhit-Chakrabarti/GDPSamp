@@ -63,7 +63,8 @@ gibbs_MVNW_dp_c <- function(init, data, num_iterations, burn, thin = 1, L.max, p
     
     # Sample the weights
     beta_samples[[i]] = as.numeric(extraDistr::rdirichlet(n = 1, alpha = n_samples[[i]] + alpha_samples[[i-1]]/L.max))
-    
+    beta_samples[[i]] = beta_samples[[i]] + 1e-6
+    beta_samples[[i]] = beta_samples[[i]]/sum(beta_samples[[i]])
     # Sample the concentration parameter alpha's
     alpha_samples[[i]] = sample_alpha(ycurrent = alpha_samples[[i-1]], 
                                       pars = list(alpha0 = prior$alpha0,
