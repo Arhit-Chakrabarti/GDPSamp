@@ -38,7 +38,7 @@ G = 1; a = 0.1; b = 0.1; lambda = 0.01
 
 CRF_HDP = CRF_gibbs(x = x, y.grid = y.grid, K.init = 1, gam = G, a = a, b = b, xi = xi, tau = tau, lambda = lambda, Burn.in = M.burn, M = M, thin = thin)
 
-source("/Users/arhitchakrabarti/Downloads/blockedHDP/postestimates.R")
+source("postestimates.R")
 # get BGS clusters using Dahl's method
 Z.hat = getDahl(CRF_HDP)
 

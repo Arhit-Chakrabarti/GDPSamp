@@ -1,4 +1,3 @@
-out_org = readRDS("/Users/arhitchakrabarti/Downloads/HDPSalt/outputs_100full2.rds")
 out = out_org[1:50]
 length(out)
 

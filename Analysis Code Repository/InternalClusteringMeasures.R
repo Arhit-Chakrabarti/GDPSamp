@@ -1,5 +1,3 @@
-GDP_cluster <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/GDP/BestGDPCombinedCluster.rds")
-HDP_cluster <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/HDP/BestHDPCombinedCluster.rds")
 ################################################################################################
 # COMAPRE CLUSTERING PERFORMANCE
 ################################################################################################

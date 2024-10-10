@@ -4,16 +4,6 @@ if(!require("mvtnorm")) install.packages("mvtnorm"); library(mvtnorm)
 if(!require("fossil")) install.packages("fossil"); library(fossil)
 if(!require("tidyverse")) install.packages("tidyverse"); library(tidyverse)
 
-# Read the UMAP Data for different populations
-X1.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP1_new4.rds")
-X2.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP2_new4.rds")
-X3.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP3_new4.rds")
-X4.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP4_new4.rds")
-X5.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP5_new4.rds")
-X6.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP6_new4.rds")
-X7.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP7_new4.rds")
-X8.UMAP = readRDS(file = "~/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/UMAP/Data/UMAP8_new4.rds")
-
 # Change the observations according to the groups from the information provided by Ellen Ruth
 X1 <- t(X3.UMAP)
 X2 <- t(X1.UMAP)

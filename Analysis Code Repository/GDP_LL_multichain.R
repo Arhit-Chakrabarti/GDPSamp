@@ -1,8 +1,4 @@
 rm(list = ls())
-LL1 <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/GDP/GDP_LL_chain_l1_alpha_3_L_30.rds")
-LL2 <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/GDP/GDP_LL_chain_l2_alpha_3_L_30.rds")
-LL3 <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/GDP/GDP_LL_chain_l3_alpha_3_L_30.rds")
-LL4 <- readRDS("/Users/arhitchakrabarti/Library/CloudStorage/OneDrive-TexasA&MUniversity/GDP/JMLR_Revision/RealDataMultiChain/GDP/GDP_LL_chain_l4_alpha_3_L_30.rds")
 
 LL1.mat <- matrix(NA, nrow = length(LL1[[1]]), ncol = length(LL1))
 LL2.mat <- matrix(NA, nrow = length(LL2[[1]]), ncol = length(LL2))
